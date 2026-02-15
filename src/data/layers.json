@@ -1,0 +1,22 @@
+[
+  {
+    "id": "muscular",
+    "name": "Muscular",
+    "colors": { "primary": "#e74c3c", "hover": "#ff6b6b", "active": "#c0392b" }
+  },
+  {
+    "id": "skeletal",
+    "name": "Skeletal",
+    "colors": { "primary": "#ecf0f1", "hover": "#ffffff", "active": "#bdc3c7" }
+  },
+  {
+    "id": "nervous",
+    "name": "Nervous",
+    "colors": { "primary": "#f39c12", "hover": "#f1c40f", "active": "#e67e22" }
+  },
+  {
+    "id": "cardiovascular",
+    "name": "Cardiovascular",
+    "colors": { "primary": "#3498db", "hover": "#5dade2", "active": "#2980b9" }
+  }
+]

@@ -1,0 +1,30 @@
+.body-diagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.body-svg {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+}
+
+.body-region-path {
+  transition: fill 0.2s ease, opacity 0.2s ease, stroke 0.2s ease;
+}
+
+.body-region-group:focus {
+  outline: none;
+}
+
+.body-region-group:focus .body-region-path {
+  stroke: #fff;
+  stroke-width: 2;
+}
+
+.region-label {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  pointer-events: none;
+}

@@ -1,0 +1,20 @@
+[
+  { "id": "neck-front", "label": "Neck", "view": "front", "layers": ["muscular", "skeletal", "nervous", "cardiovascular"] },
+  { "id": "chest", "label": "Chest", "view": "front", "layers": ["muscular", "skeletal", "cardiovascular"] },
+  { "id": "shoulders-front", "label": "Shoulders", "view": "front", "layers": ["muscular", "skeletal", "nervous"] },
+  { "id": "biceps", "label": "Biceps", "view": "front", "layers": ["muscular", "nervous"] },
+  { "id": "forearms-front", "label": "Forearms", "view": "front", "layers": ["muscular", "skeletal", "nervous"] },
+  { "id": "abs", "label": "Abs", "view": "front", "layers": ["muscular"] },
+  { "id": "quadriceps", "label": "Quadriceps", "view": "front", "layers": ["muscular", "skeletal", "nervous"] },
+  { "id": "shins", "label": "Shins", "view": "front", "layers": ["muscular", "skeletal"] },
+
+  { "id": "neck-back", "label": "Neck", "view": "back", "layers": ["muscular", "skeletal", "nervous", "cardiovascular"] },
+  { "id": "upper-back", "label": "Upper Back", "view": "back", "layers": ["muscular", "skeletal", "nervous"] },
+  { "id": "shoulders-back", "label": "Shoulders", "view": "back", "layers": ["muscular", "skeletal", "nervous"] },
+  { "id": "triceps", "label": "Triceps", "view": "back", "layers": ["muscular", "nervous"] },
+  { "id": "forearms-back", "label": "Forearms", "view": "back", "layers": ["muscular", "skeletal", "nervous"] },
+  { "id": "lower-back", "label": "Lower Back", "view": "back", "layers": ["muscular", "skeletal", "nervous"] },
+  { "id": "glutes", "label": "Glutes", "view": "back", "layers": ["muscular"] },
+  { "id": "hamstrings", "label": "Hamstrings", "view": "back", "layers": ["muscular", "nervous"] },
+  { "id": "calves", "label": "Calves", "view": "back", "layers": ["muscular", "skeletal"] }
+]

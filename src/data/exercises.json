@@ -1,0 +1,512 @@
+[
+  {
+    "id": "push-up",
+    "name": "Push-Up",
+    "description": "Bodyweight exercise targeting chest, shoulders, and triceps.",
+    "targetArea": "chest",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Start in a plank position with hands shoulder-width apart.", "Lower your body until your chest nearly touches the floor.", "Push back up to starting position.", "Keep your core tight throughout the movement."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "bench-press",
+    "name": "Bench Press",
+    "description": "Compound pressing movement for chest development.",
+    "targetArea": "chest",
+    "type": "exercise",
+    "difficulty": "intermediate",
+    "instructions": ["Lie on a flat bench with feet flat on the floor.", "Grip the bar slightly wider than shoulder-width.", "Lower the bar to mid-chest.", "Press the bar back up to full arm extension."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "chest-stretch",
+    "name": "Doorway Chest Stretch",
+    "description": "Stretch for the pectoral muscles using a doorway.",
+    "targetArea": "chest",
+    "type": "stretch",
+    "difficulty": "beginner",
+    "instructions": ["Stand in a doorway with arms bent at 90 degrees.", "Place forearms on the door frame.", "Step forward until you feel a stretch across your chest.", "Hold for 20-30 seconds."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "chest-fly",
+    "name": "Dumbbell Chest Fly",
+    "description": "Isolation exercise for the chest muscles.",
+    "targetArea": "chest",
+    "type": "exercise",
+    "difficulty": "intermediate",
+    "instructions": ["Lie on a flat bench holding dumbbells above your chest.", "With a slight bend in elbows, lower arms out to the sides.", "Feel the stretch across your chest.", "Squeeze chest muscles to bring dumbbells back together."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "neck-flexion",
+    "name": "Neck Flexion Stretch",
+    "description": "Gentle stretch for the front and sides of the neck.",
+    "targetArea": "neck-front",
+    "type": "stretch",
+    "difficulty": "beginner",
+    "instructions": ["Sit or stand with good posture.", "Slowly tilt your head forward, bringing chin to chest.", "Hold for 15-20 seconds.", "Return to starting position slowly."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "neck-rotation",
+    "name": "Neck Rotation",
+    "description": "Mobility exercise for neck range of motion.",
+    "targetArea": "neck-front",
+    "type": "stretch",
+    "difficulty": "beginner",
+    "instructions": ["Sit upright with shoulders relaxed.", "Slowly turn your head to the right.", "Hold for 10 seconds.", "Return to center and repeat on the left side."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "neck-isometric",
+    "name": "Neck Isometric Hold",
+    "description": "Strengthening exercise using resistance against head movement.",
+    "targetArea": "neck-front",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Place your palm against your forehead.", "Push your head forward against your hand, resisting movement.", "Hold for 5-10 seconds.", "Repeat 5 times, then switch to sides and back."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "overhead-press",
+    "name": "Overhead Press",
+    "description": "Compound pressing movement for shoulder development.",
+    "targetArea": "shoulders-front",
+    "type": "exercise",
+    "difficulty": "intermediate",
+    "instructions": ["Stand with feet shoulder-width apart, barbell at shoulder height.", "Press the bar overhead until arms are fully extended.", "Lower the bar back to shoulder height.", "Keep your core engaged throughout."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "lateral-raise",
+    "name": "Lateral Raise",
+    "description": "Isolation exercise for the lateral deltoids.",
+    "targetArea": "shoulders-front",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Stand holding dumbbells at your sides.", "Raise arms out to the sides until parallel with the floor.", "Pause briefly at the top.", "Lower slowly back to starting position."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "shoulder-stretch",
+    "name": "Cross-Body Shoulder Stretch",
+    "description": "Stretch for the posterior deltoid and shoulder capsule.",
+    "targetArea": "shoulders-front",
+    "type": "stretch",
+    "difficulty": "beginner",
+    "instructions": ["Bring one arm across your body at shoulder height.", "Use the opposite hand to gently pull the arm closer.", "Hold for 20-30 seconds.", "Repeat on the other side."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "bicep-curl",
+    "name": "Bicep Curl",
+    "description": "Classic isolation exercise for the biceps.",
+    "targetArea": "biceps",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Stand holding dumbbells with palms facing forward.", "Curl the weights up toward your shoulders.", "Squeeze at the top.", "Lower slowly to starting position."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "hammer-curl",
+    "name": "Hammer Curl",
+    "description": "Bicep curl variation targeting the brachialis.",
+    "targetArea": "biceps",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Stand holding dumbbells with palms facing each other.", "Curl the weights up keeping wrists neutral.", "Squeeze at the top.", "Lower slowly to starting position."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "bicep-stretch",
+    "name": "Wall Bicep Stretch",
+    "description": "Stretch for the biceps using a wall.",
+    "targetArea": "biceps",
+    "type": "stretch",
+    "difficulty": "beginner",
+    "instructions": ["Stand next to a wall and place your palm flat against it.", "Fingers should point behind you, arm straight.", "Slowly turn your body away from the wall.", "Hold for 20-30 seconds and repeat on the other side."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "wrist-curl",
+    "name": "Wrist Curl",
+    "description": "Isolation exercise for forearm flexors.",
+    "targetArea": "forearms-front",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Sit and rest forearms on thighs, palms up.", "Hold a light dumbbell and let wrists hang over knees.", "Curl wrists upward.", "Lower slowly to starting position."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "forearm-stretch",
+    "name": "Forearm Flexor Stretch",
+    "description": "Stretch for the inner forearm muscles.",
+    "targetArea": "forearms-front",
+    "type": "stretch",
+    "difficulty": "beginner",
+    "instructions": ["Extend one arm in front, palm up.", "Use the other hand to gently pull fingers downward.", "Hold for 20-30 seconds.", "Repeat on the other arm."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "farmer-carry",
+    "name": "Farmer's Carry",
+    "description": "Functional exercise for grip strength and forearms.",
+    "targetArea": "forearms-front",
+    "type": "exercise",
+    "difficulty": "intermediate",
+    "instructions": ["Pick up heavy dumbbells or kettlebells.", "Stand tall with shoulders back.", "Walk for 30-60 seconds maintaining good posture.", "Set weights down with control."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "crunch",
+    "name": "Crunch",
+    "description": "Basic abdominal exercise targeting the rectus abdominis.",
+    "targetArea": "abs",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Lie on your back with knees bent, feet flat on the floor.", "Place hands behind your head or crossed on chest.", "Curl your upper body toward your knees.", "Lower back down with control."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "plank",
+    "name": "Plank",
+    "description": "Isometric core exercise for overall abdominal strength.",
+    "targetArea": "abs",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Start in a forearm plank position.", "Keep your body in a straight line from head to heels.", "Engage your core and glutes.", "Hold for 30-60 seconds."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "bicycle-crunch",
+    "name": "Bicycle Crunch",
+    "description": "Dynamic core exercise targeting obliques and rectus abdominis.",
+    "targetArea": "abs",
+    "type": "exercise",
+    "difficulty": "intermediate",
+    "instructions": ["Lie on your back with hands behind your head.", "Lift shoulders off the ground.", "Bring right elbow to left knee while extending right leg.", "Alternate sides in a pedaling motion."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "cobra-stretch",
+    "name": "Cobra Stretch",
+    "description": "Stretch for the abdominal muscles and hip flexors.",
+    "targetArea": "abs",
+    "type": "stretch",
+    "difficulty": "beginner",
+    "instructions": ["Lie face down with palms on the floor near your shoulders.", "Press up, extending your arms and arching your back.", "Keep hips on the ground.", "Hold for 20-30 seconds."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "squat",
+    "name": "Bodyweight Squat",
+    "description": "Fundamental lower body exercise targeting quadriceps.",
+    "targetArea": "quadriceps",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Stand with feet shoulder-width apart.", "Lower your body as if sitting in a chair.", "Keep knees tracking over toes.", "Push through heels to stand back up."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "lunge",
+    "name": "Forward Lunge",
+    "description": "Unilateral leg exercise for quads and glutes.",
+    "targetArea": "quadriceps",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Stand with feet hip-width apart.", "Step forward with one leg.", "Lower until both knees are at 90 degrees.", "Push back to starting position and repeat on other side."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "quad-stretch",
+    "name": "Standing Quad Stretch",
+    "description": "Classic stretch for the quadriceps muscles.",
+    "targetArea": "quadriceps",
+    "type": "stretch",
+    "difficulty": "beginner",
+    "instructions": ["Stand on one leg, holding a wall for balance if needed.", "Grab your opposite ankle behind you.", "Pull heel toward glute.", "Hold for 20-30 seconds per side."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "leg-extension",
+    "name": "Leg Extension",
+    "description": "Machine-based isolation exercise for the quadriceps.",
+    "targetArea": "quadriceps",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Sit on the leg extension machine with back against the pad.", "Place ankles behind the lower pad.", "Extend legs until straight.", "Lower slowly with control."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "tibialis-raise",
+    "name": "Tibialis Raise",
+    "description": "Strengthening exercise for the shin muscles.",
+    "targetArea": "shins",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Stand with back against a wall, feet about a foot from the wall.", "Lift your toes off the ground, keeping heels down.", "Hold briefly at the top.", "Lower toes back down with control."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "shin-stretch",
+    "name": "Kneeling Shin Stretch",
+    "description": "Stretch for the tibialis anterior muscles.",
+    "targetArea": "shins",
+    "type": "stretch",
+    "difficulty": "beginner",
+    "instructions": ["Kneel on a soft surface with toes pointed behind you.", "Sit back on your heels gently.", "Feel the stretch along the front of your shins.", "Hold for 20-30 seconds."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "toe-walk",
+    "name": "Toe Walk",
+    "description": "Functional exercise for shin and calf strengthening.",
+    "targetArea": "shins",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Stand tall on your toes.", "Walk forward for 20-30 steps.", "Maintain balance and keep heels elevated.", "Rest and repeat 3 times."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "neck-extension-stretch",
+    "name": "Neck Extension Stretch",
+    "description": "Stretch for the back of the neck.",
+    "targetArea": "neck-back",
+    "type": "stretch",
+    "difficulty": "beginner",
+    "instructions": ["Sit upright with good posture.", "Place both hands on the back of your head.", "Gently pull your chin toward your chest.", "Hold for 15-20 seconds."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "pull-up",
+    "name": "Pull-Up",
+    "description": "Upper body compound exercise targeting the back and biceps.",
+    "targetArea": "upper-back",
+    "type": "exercise",
+    "difficulty": "advanced",
+    "instructions": ["Hang from a bar with palms facing away, shoulder-width apart.", "Pull yourself up until chin clears the bar.", "Lower with control to full arm extension.", "Avoid swinging or kipping."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "bent-over-row",
+    "name": "Bent-Over Row",
+    "description": "Compound pulling exercise for upper back thickness.",
+    "targetArea": "upper-back",
+    "type": "exercise",
+    "difficulty": "intermediate",
+    "instructions": ["Hinge at hips holding a barbell or dumbbells.", "Keep back flat and core engaged.", "Pull weight toward your lower chest.", "Lower with control."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "upper-back-stretch",
+    "name": "Cat-Cow Stretch",
+    "description": "Dynamic stretch for upper and mid back mobility.",
+    "targetArea": "upper-back",
+    "type": "stretch",
+    "difficulty": "beginner",
+    "instructions": ["Start on hands and knees.", "Round your back up (cat), tucking chin and tailbone.", "Then arch your back down (cow), lifting head and tailbone.", "Flow between positions for 10 repetitions."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "face-pull",
+    "name": "Face Pull",
+    "description": "Exercise for rear deltoids and upper back posture.",
+    "targetArea": "shoulders-back",
+    "type": "exercise",
+    "difficulty": "intermediate",
+    "instructions": ["Set a cable machine at face height with rope attachment.", "Pull the rope toward your face, spreading hands apart.", "Squeeze shoulder blades together at the end.", "Return slowly to starting position."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "rear-delt-fly",
+    "name": "Rear Delt Fly",
+    "description": "Isolation exercise for the posterior deltoids.",
+    "targetArea": "shoulders-back",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Bend forward at the hips holding light dumbbells.", "Raise arms out to the sides, leading with elbows.", "Squeeze shoulder blades at the top.", "Lower with control."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "shoulder-dislocate",
+    "name": "Shoulder Dislocate",
+    "description": "Mobility exercise using a band or dowel.",
+    "targetArea": "shoulders-back",
+    "type": "stretch",
+    "difficulty": "intermediate",
+    "instructions": ["Hold a resistance band or stick with a wide grip.", "With straight arms, slowly rotate it over and behind your head.", "Reverse the movement to return to the front.", "Gradually narrow your grip as mobility improves."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "tricep-dip",
+    "name": "Tricep Dip",
+    "description": "Bodyweight exercise targeting the triceps.",
+    "targetArea": "triceps",
+    "type": "exercise",
+    "difficulty": "intermediate",
+    "instructions": ["Place hands on a bench or parallel bars behind you.", "Lower your body by bending elbows to 90 degrees.", "Push back up to full arm extension.", "Keep elbows pointing backward, not flared."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "tricep-pushdown",
+    "name": "Tricep Pushdown",
+    "description": "Cable exercise for tricep isolation.",
+    "targetArea": "triceps",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Stand facing a cable machine with rope or bar attachment.", "Keep elbows pinned to your sides.", "Push the handle down until arms are fully extended.", "Return slowly to starting position."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "tricep-stretch",
+    "name": "Overhead Tricep Stretch",
+    "description": "Stretch for the triceps muscles.",
+    "targetArea": "triceps",
+    "type": "stretch",
+    "difficulty": "beginner",
+    "instructions": ["Raise one arm overhead.", "Bend the elbow, reaching hand behind your head.", "Use the other hand to gently push the elbow back.", "Hold for 20-30 seconds per arm."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "reverse-wrist-curl",
+    "name": "Reverse Wrist Curl",
+    "description": "Exercise for forearm extensors on the back of the forearm.",
+    "targetArea": "forearms-back",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Sit and rest forearms on thighs, palms facing down.", "Hold light dumbbells and let wrists hang over knees.", "Curl wrists upward.", "Lower slowly with control."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "forearm-extensor-stretch",
+    "name": "Forearm Extensor Stretch",
+    "description": "Stretch for the outer forearm muscles.",
+    "targetArea": "forearms-back",
+    "type": "stretch",
+    "difficulty": "beginner",
+    "instructions": ["Extend one arm forward, palm facing down.", "Use the other hand to gently press fingers toward you.", "Hold for 20-30 seconds.", "Repeat on the other arm."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "superman",
+    "name": "Superman",
+    "description": "Bodyweight exercise for lower back and posterior chain.",
+    "targetArea": "lower-back",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Lie face down with arms extended in front of you.", "Simultaneously lift arms, chest, and legs off the floor.", "Hold for 2-3 seconds at the top.", "Lower with control and repeat."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "bird-dog",
+    "name": "Bird Dog",
+    "description": "Core stability exercise for the lower back.",
+    "targetArea": "lower-back",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Start on hands and knees.", "Extend right arm forward and left leg back simultaneously.", "Hold for 2-3 seconds, keeping hips level.", "Return and repeat on the other side."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "childs-pose",
+    "name": "Child's Pose",
+    "description": "Gentle stretch for the lower back and hips.",
+    "targetArea": "lower-back",
+    "type": "stretch",
+    "difficulty": "beginner",
+    "instructions": ["Kneel and sit back on your heels.", "Extend arms forward on the floor.", "Let your forehead rest on the ground.", "Hold for 30-60 seconds, breathing deeply."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "glute-bridge",
+    "name": "Glute Bridge",
+    "description": "Bodyweight exercise targeting the gluteus maximus.",
+    "targetArea": "glutes",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Lie on your back with knees bent, feet flat on the floor.", "Push through heels to lift hips toward the ceiling.", "Squeeze glutes at the top.", "Lower slowly to starting position."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "hip-thrust",
+    "name": "Hip Thrust",
+    "description": "Weighted exercise for glute strength and development.",
+    "targetArea": "glutes",
+    "type": "exercise",
+    "difficulty": "intermediate",
+    "instructions": ["Sit on the floor with upper back against a bench.", "Place a barbell across your hips.", "Drive hips up until thighs are parallel to the floor.", "Squeeze glutes at the top, then lower with control."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "pigeon-pose",
+    "name": "Pigeon Pose",
+    "description": "Deep stretch for the glutes and hip rotators.",
+    "targetArea": "glutes",
+    "type": "stretch",
+    "difficulty": "intermediate",
+    "instructions": ["From a hands-and-knees position, bring right knee forward.", "Place right shin across the mat at an angle.", "Extend left leg straight behind you.", "Hold for 30-60 seconds per side."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "romanian-deadlift",
+    "name": "Romanian Deadlift",
+    "description": "Hip hinge exercise targeting hamstrings and glutes.",
+    "targetArea": "hamstrings",
+    "type": "exercise",
+    "difficulty": "intermediate",
+    "instructions": ["Stand holding a barbell or dumbbells in front of thighs.", "Hinge at hips, pushing them back while lowering the weight.", "Keep a slight bend in knees and back flat.", "Return to standing by driving hips forward."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "leg-curl",
+    "name": "Leg Curl",
+    "description": "Machine-based isolation exercise for hamstrings.",
+    "targetArea": "hamstrings",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Lie face down on the leg curl machine.", "Place ankles under the pad.", "Curl your heels toward your glutes.", "Lower with control."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "hamstring-stretch",
+    "name": "Standing Hamstring Stretch",
+    "description": "Classic stretch for the hamstring muscles.",
+    "targetArea": "hamstrings",
+    "type": "stretch",
+    "difficulty": "beginner",
+    "instructions": ["Stand and place one heel on an elevated surface.", "Keep the leg straight and hinge forward at the hips.", "Reach toward your toes.", "Hold for 20-30 seconds per side."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "calf-raise",
+    "name": "Calf Raise",
+    "description": "Exercise for the gastrocnemius and soleus muscles.",
+    "targetArea": "calves",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Stand on a step with heels hanging off the edge.", "Rise up onto your toes as high as possible.", "Hold briefly at the top.", "Lower slowly below the step level for a full stretch."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "seated-calf-raise",
+    "name": "Seated Calf Raise",
+    "description": "Isolation exercise targeting the soleus muscle.",
+    "targetArea": "calves",
+    "type": "exercise",
+    "difficulty": "beginner",
+    "instructions": ["Sit with weight across your knees.", "Place balls of feet on a raised surface.", "Push up through toes.", "Lower heels below the platform level."],
+    "layers": ["muscular"]
+  },
+  {
+    "id": "calf-stretch",
+    "name": "Wall Calf Stretch",
+    "description": "Stretch for the calf muscles.",
+    "targetArea": "calves",
+    "type": "stretch",
+    "difficulty": "beginner",
+    "instructions": ["Stand facing a wall with hands against it.", "Step one foot back, keeping it straight with heel on the floor.", "Bend front knee and lean into the wall.", "Hold for 20-30 seconds per side."],
+    "layers": ["muscular"]
+  }
+]

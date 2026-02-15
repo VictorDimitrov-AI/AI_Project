@@ -1,0 +1,51 @@
+.layer-selector {
+  padding: 1rem;
+}
+
+.layer-selector h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+  color: #ccc;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.layer-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.layer-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border: 2px solid #333;
+  border-radius: 8px;
+  background: #1a1a2e;
+  color: #e0e0e0;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.layer-btn:hover {
+  border-color: var(--layer-hover);
+  background: #252540;
+}
+
+.layer-btn.active {
+  border-color: var(--layer-primary);
+  background: #252540;
+  color: #fff;
+  font-weight: 600;
+}
+
+.color-swatch {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
