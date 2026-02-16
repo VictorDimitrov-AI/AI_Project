@@ -1,21 +1,21 @@
 import { useState } from 'react';
-import { MealPlanView } from './MealPlanView';
 import { FoodDatabase } from './FoodDatabase';
+import { NutritionCalculator } from './NutritionCalculator';
 import './NutritionGuide.css';
 
-type NutritionTab = 'plans' | 'foods';
+type NutritionTab = 'generator' | 'foods';
 
 export function NutritionGuide() {
-  const [activeTab, setActiveTab] = useState<NutritionTab>('plans');
+  const [activeTab, setActiveTab] = useState<NutritionTab>('generator');
 
   return (
     <div className="nutrition-guide">
       <nav className="nutrition-subnav">
         <button
-          className={`subnav-btn${activeTab === 'plans' ? ' active' : ''}`}
-          onClick={() => setActiveTab('plans')}
+          className={`subnav-btn${activeTab === 'generator' ? ' active' : ''}`}
+          onClick={() => setActiveTab('generator')}
         >
-          Meal Plans
+          Meal Plan Generator
         </button>
         <button
           className={`subnav-btn${activeTab === 'foods' ? ' active' : ''}`}
@@ -24,7 +24,8 @@ export function NutritionGuide() {
           Food Database
         </button>
       </nav>
-      {activeTab === 'plans' ? <MealPlanView /> : <FoodDatabase />}
+      {activeTab === 'generator' && <NutritionCalculator />}
+      {activeTab === 'foods' && <FoodDatabase />}
     </div>
   );
 }

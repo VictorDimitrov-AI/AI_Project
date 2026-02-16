@@ -33,104 +33,6 @@
   color: #fff;
 }
 
-/* Meal Plan View */
-.meal-plan-cards {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-.meal-plan-card {
-  background: #1e1e1e;
-  border: 1px solid #333;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.2s;
-  overflow: hidden;
-}
-
-.meal-plan-card:hover {
-  border-color: #555;
-}
-
-.meal-plan-card.expanded {
-  border-color: #e74c3c;
-}
-
-.meal-plan-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1.25rem;
-}
-
-.meal-plan-header h3 {
-  margin: 0;
-  font-size: 1.05rem;
-  color: #eee;
-}
-
-.meal-plan-header .chevron {
-  color: #888;
-  font-size: 0.85rem;
-  transition: transform 0.2s;
-}
-
-.meal-plan-card.expanded .chevron {
-  transform: rotate(180deg);
-}
-
-.meal-plan-description {
-  padding: 0 1.25rem;
-  margin: 0 0 0.75rem;
-  color: #999;
-  font-size: 0.85rem;
-}
-
-.macro-targets {
-  display: flex;
-  gap: 0.5rem;
-  padding: 0 1.25rem;
-  margin-bottom: 1rem;
-  flex-wrap: wrap;
-}
-
-.macro-badge {
-  padding: 0.3rem 0.65rem;
-  border-radius: 4px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: #fff;
-}
-
-.macro-badge.calories {
-  background: #555;
-}
-
-.macro-badge.protein {
-  background: #e74c3c;
-}
-
-.macro-badge.carbs {
-  background: #f39c12;
-  color: #1a1a1a;
-}
-
-.macro-badge.fat {
-  background: #3498db;
-}
-
-.meal-section {
-  border-top: 1px solid #2a2a2a;
-  padding: 0.75rem 1.25rem;
-}
-
-.meal-section h4 {
-  margin: 0 0 0.5rem;
-  font-size: 0.9rem;
-  color: #ccc;
-}
-
 .meal-food-list {
   list-style: none;
   margin: 0;
@@ -267,4 +169,182 @@
   color: #666;
   font-size: 0.8rem;
   margin-top: 0.75rem;
+}
+
+/* Nutrition Calculator */
+.nutrition-calculator {
+  padding: 1rem 0;
+}
+
+.unit-toggle {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.unit-btn {
+  flex: 1;
+  padding: 0.5rem;
+  background: #1e1e1e;
+  border: 1px solid #444;
+  border-radius: 6px;
+  color: #aaa;
+  font-family: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.unit-btn:hover {
+  border-color: #666;
+  color: #ccc;
+}
+
+.unit-btn.selected {
+  border-color: #e74c3c;
+  background: #2a2a2a;
+  color: #fff;
+}
+
+.calc-field {
+  margin-bottom: 1rem;
+}
+
+.calc-input {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  background: #1e1e1e;
+  border: 1px solid #444;
+  border-radius: 6px;
+  color: #eee;
+  font-size: 0.95rem;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.calc-input:focus {
+  outline: none;
+  border-color: #e74c3c;
+}
+
+.calc-input-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.calc-input-row .calc-input {
+  flex: 1;
+}
+
+/* Calculator Results */
+.calc-results {
+  animation: fadeIn 0.25s ease;
+}
+
+.calc-results-title {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0 0 1.5rem;
+  background: linear-gradient(135deg, #e74c3c, #f39c12);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.calc-tdee-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e1e1e;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.calc-tdee-label {
+  color: #999;
+  font-size: 0.85rem;
+}
+
+.calc-tdee-value {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.calc-macros-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.calc-macro-card {
+  background: #1e1e1e;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 0.75rem 0.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.calc-macro-card.protein { border-color: #e74c3c; }
+.calc-macro-card.carbs { border-color: #f39c12; }
+.calc-macro-card.fat { border-color: #3498db; }
+
+.calc-macro-value {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.calc-macro-card.protein .calc-macro-value { color: #e74c3c; }
+.calc-macro-card.carbs .calc-macro-value { color: #f39c12; }
+.calc-macro-card.fat .calc-macro-value { color: #3498db; }
+
+.calc-macro-label {
+  font-size: 0.72rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.calc-scaled-plan {
+  margin-top: 1.5rem;
+}
+
+.calc-scaled-plan h3 {
+  font-size: 1rem;
+  color: #ccc;
+  margin: 0 0 1rem;
+}
+
+.calc-meal-section {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.calc-meal-section h4 {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+@media (max-width: 520px) {
+  .calc-macros-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .calc-tdee-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
 }
