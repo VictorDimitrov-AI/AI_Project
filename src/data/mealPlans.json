@@ -1,0 +1,172 @@
+[
+  {
+    "id": "muscle-building-plan",
+    "goal": "muscle_building",
+    "title": "Muscle Building Meal Plan",
+    "description": "High-protein, calorie-surplus plan designed to support muscle growth and recovery.",
+    "dailyTargets": { "calories": 2800, "protein": 180, "carbs": 300, "fat": 90 },
+    "meals": [
+      {
+        "name": "Breakfast",
+        "foods": [
+          { "foodId": "oats", "amount": "1 cup", "calories": 300, "protein": 10, "carbs": 54, "fat": 5 },
+          { "foodId": "whey-protein", "amount": "1 scoop", "calories": 120, "protein": 24, "carbs": 3, "fat": 1.5 },
+          { "foodId": "banana", "amount": "1 medium", "calories": 105, "protein": 1, "carbs": 27, "fat": 0.4 },
+          { "foodId": "peanut-butter", "amount": "1 tbsp", "calories": 95, "protein": 3.5, "carbs": 3.5, "fat": 8 }
+        ]
+      },
+      {
+        "name": "Lunch",
+        "foods": [
+          { "foodId": "chicken-breast", "amount": "200g", "calories": 330, "protein": 62, "carbs": 0, "fat": 7.2 },
+          { "foodId": "brown-rice", "amount": "1.5 cups", "calories": 324, "protein": 7.5, "carbs": 67.5, "fat": 2.7 },
+          { "foodId": "broccoli", "amount": "1 cup", "calories": 55, "protein": 4, "carbs": 11, "fat": 0.6 }
+        ]
+      },
+      {
+        "name": "Dinner",
+        "foods": [
+          { "foodId": "salmon", "amount": "200g", "calories": 416, "protein": 40, "carbs": 0, "fat": 26 },
+          { "foodId": "sweet-potato", "amount": "2 medium", "calories": 206, "protein": 4, "carbs": 48, "fat": 0 },
+          { "foodId": "asparagus", "amount": "1 cup", "calories": 27, "protein": 3, "carbs": 5, "fat": 0.2 }
+        ]
+      },
+      {
+        "name": "Snacks",
+        "foods": [
+          { "foodId": "greek-yogurt", "amount": "1 cup", "calories": 130, "protein": 22, "carbs": 8, "fat": 0.7 },
+          { "foodId": "almonds", "amount": "1 oz", "calories": 164, "protein": 6, "carbs": 6, "fat": 14 },
+          { "foodId": "cottage-cheese", "amount": "0.5 cup", "calories": 103, "protein": 14, "carbs": 3, "fat": 4.5 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "weight-loss-plan",
+    "goal": "weight_loss",
+    "title": "Weight Loss Meal Plan",
+    "description": "Calorie-deficit plan with high protein to preserve muscle while promoting fat loss.",
+    "dailyTargets": { "calories": 1800, "protein": 150, "carbs": 150, "fat": 60 },
+    "meals": [
+      {
+        "name": "Breakfast",
+        "foods": [
+          { "foodId": "eggs", "amount": "3 large", "calories": 215, "protein": 19.5, "carbs": 1.5, "fat": 15 },
+          { "foodId": "spinach", "amount": "2 cups", "calories": 14, "protein": 2, "carbs": 2, "fat": 0.2 },
+          { "foodId": "whole-wheat-bread", "amount": "1 slice", "calories": 80, "protein": 4, "carbs": 14, "fat": 1 }
+        ]
+      },
+      {
+        "name": "Lunch",
+        "foods": [
+          { "foodId": "turkey-breast", "amount": "150g", "calories": 203, "protein": 45, "carbs": 0, "fat": 1.5 },
+          { "foodId": "quinoa", "amount": "1 cup", "calories": 222, "protein": 8, "carbs": 39, "fat": 4 },
+          { "foodId": "bell-pepper", "amount": "1 medium", "calories": 31, "protein": 1, "carbs": 6, "fat": 0.3 },
+          { "foodId": "olive-oil", "amount": "0.5 tbsp", "calories": 60, "protein": 0, "carbs": 0, "fat": 7 }
+        ]
+      },
+      {
+        "name": "Dinner",
+        "foods": [
+          { "foodId": "tuna", "amount": "150g", "calories": 174, "protein": 39, "carbs": 0, "fat": 1.5 },
+          { "foodId": "sweet-potato", "amount": "1 medium", "calories": 103, "protein": 2, "carbs": 24, "fat": 0 },
+          { "foodId": "green-beans", "amount": "1 cup", "calories": 31, "protein": 2, "carbs": 7, "fat": 0.1 }
+        ]
+      },
+      {
+        "name": "Snacks",
+        "foods": [
+          { "foodId": "greek-yogurt", "amount": "1 cup", "calories": 130, "protein": 22, "carbs": 8, "fat": 0.7 },
+          { "foodId": "apple", "amount": "1 medium", "calories": 95, "protein": 0, "carbs": 25, "fat": 0.3 },
+          { "foodId": "carrots", "amount": "0.5 cup", "calories": 26, "protein": 0.5, "carbs": 6, "fat": 0.2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "flexibility-plan",
+    "goal": "flexibility",
+    "title": "Flexibility & Recovery Meal Plan",
+    "description": "Anti-inflammatory, nutrient-dense plan to support joint health and recovery.",
+    "dailyTargets": { "calories": 2200, "protein": 120, "carbs": 250, "fat": 80 },
+    "meals": [
+      {
+        "name": "Breakfast",
+        "foods": [
+          { "foodId": "oats", "amount": "1 cup", "calories": 300, "protein": 10, "carbs": 54, "fat": 5 },
+          { "foodId": "blueberries", "amount": "1 cup", "calories": 84, "protein": 1, "carbs": 21, "fat": 0.5 },
+          { "foodId": "walnuts", "amount": "0.5 oz", "calories": 93, "protein": 2, "carbs": 2, "fat": 9 },
+          { "foodId": "whole-milk", "amount": "0.5 cup", "calories": 75, "protein": 4, "carbs": 6, "fat": 4 }
+        ]
+      },
+      {
+        "name": "Lunch",
+        "foods": [
+          { "foodId": "salmon", "amount": "150g", "calories": 312, "protein": 30, "carbs": 0, "fat": 19.5 },
+          { "foodId": "brown-rice", "amount": "1 cup", "calories": 216, "protein": 5, "carbs": 45, "fat": 1.8 },
+          { "foodId": "kale", "amount": "1 cup", "calories": 33, "protein": 3, "carbs": 6, "fat": 0.6 }
+        ]
+      },
+      {
+        "name": "Dinner",
+        "foods": [
+          { "foodId": "chicken-breast", "amount": "150g", "calories": 248, "protein": 46.5, "carbs": 0, "fat": 5.4 },
+          { "foodId": "sweet-potato", "amount": "1 medium", "calories": 103, "protein": 2, "carbs": 24, "fat": 0 },
+          { "foodId": "asparagus", "amount": "1 cup", "calories": 27, "protein": 3, "carbs": 5, "fat": 0.2 },
+          { "foodId": "olive-oil", "amount": "1 tbsp", "calories": 119, "protein": 0, "carbs": 0, "fat": 14 }
+        ]
+      },
+      {
+        "name": "Snacks",
+        "foods": [
+          { "foodId": "avocado", "amount": "0.5 medium", "calories": 120, "protein": 1.5, "carbs": 6.5, "fat": 11 },
+          { "foodId": "strawberries", "amount": "1 cup", "calories": 49, "protein": 1, "carbs": 12, "fat": 0.5 },
+          { "foodId": "almonds", "amount": "1 oz", "calories": 164, "protein": 6, "carbs": 6, "fat": 14 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-fitness-plan",
+    "goal": "general_fitness",
+    "title": "General Fitness Meal Plan",
+    "description": "Balanced macronutrient plan for overall health, energy, and moderate activity.",
+    "dailyTargets": { "calories": 2400, "protein": 140, "carbs": 280, "fat": 80 },
+    "meals": [
+      {
+        "name": "Breakfast",
+        "foods": [
+          { "foodId": "eggs", "amount": "2 large", "calories": 143, "protein": 13, "carbs": 1, "fat": 10 },
+          { "foodId": "whole-wheat-bread", "amount": "2 slices", "calories": 160, "protein": 8, "carbs": 28, "fat": 2 },
+          { "foodId": "avocado", "amount": "0.5 medium", "calories": 120, "protein": 1.5, "carbs": 6.5, "fat": 11 },
+          { "foodId": "orange", "amount": "1 medium", "calories": 62, "protein": 1, "carbs": 15, "fat": 0.2 }
+        ]
+      },
+      {
+        "name": "Lunch",
+        "foods": [
+          { "foodId": "chicken-breast", "amount": "150g", "calories": 248, "protein": 46.5, "carbs": 0, "fat": 5.4 },
+          { "foodId": "pasta", "amount": "1 cup", "calories": 220, "protein": 8, "carbs": 43, "fat": 1.3 },
+          { "foodId": "broccoli", "amount": "1 cup", "calories": 55, "protein": 4, "carbs": 11, "fat": 0.6 },
+          { "foodId": "olive-oil", "amount": "1 tbsp", "calories": 119, "protein": 0, "carbs": 0, "fat": 14 }
+        ]
+      },
+      {
+        "name": "Dinner",
+        "foods": [
+          { "foodId": "ground-beef-lean", "amount": "150g", "calories": 375, "protein": 39, "carbs": 0, "fat": 22.5 },
+          { "foodId": "white-potato", "amount": "1 medium", "calories": 163, "protein": 4, "carbs": 37, "fat": 0.2 },
+          { "foodId": "zucchini", "amount": "1 medium", "calories": 33, "protein": 2, "carbs": 6, "fat": 0.6 }
+        ]
+      },
+      {
+        "name": "Snacks",
+        "foods": [
+          { "foodId": "greek-yogurt", "amount": "1 cup", "calories": 130, "protein": 22, "carbs": 8, "fat": 0.7 },
+          { "foodId": "banana", "amount": "1 medium", "calories": 105, "protein": 1, "carbs": 27, "fat": 0.4 },
+          { "foodId": "peanut-butter", "amount": "1 tbsp", "calories": 95, "protein": 3.5, "carbs": 3.5, "fat": 8 }
+        ]
+      }
+    ]
+  }
+]

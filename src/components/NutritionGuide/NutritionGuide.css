@@ -1,0 +1,270 @@
+.nutrition-guide {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+.nutrition-subnav {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.subnav-btn {
+  flex: 1;
+  padding: 0.6rem 1rem;
+  border: 1px solid #444;
+  background: #1e1e1e;
+  color: #aaa;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+
+.subnav-btn:hover {
+  border-color: #666;
+  color: #ccc;
+}
+
+.subnav-btn.active {
+  background: #2a2a2a;
+  border-color: #e74c3c;
+  color: #fff;
+}
+
+/* Meal Plan View */
+.meal-plan-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.meal-plan-card {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  overflow: hidden;
+}
+
+.meal-plan-card:hover {
+  border-color: #555;
+}
+
+.meal-plan-card.expanded {
+  border-color: #e74c3c;
+}
+
+.meal-plan-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+}
+
+.meal-plan-header h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #eee;
+}
+
+.meal-plan-header .chevron {
+  color: #888;
+  font-size: 0.85rem;
+  transition: transform 0.2s;
+}
+
+.meal-plan-card.expanded .chevron {
+  transform: rotate(180deg);
+}
+
+.meal-plan-description {
+  padding: 0 1.25rem;
+  margin: 0 0 0.75rem;
+  color: #999;
+  font-size: 0.85rem;
+}
+
+.macro-targets {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0 1.25rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.macro-badge {
+  padding: 0.3rem 0.65rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.macro-badge.calories {
+  background: #555;
+}
+
+.macro-badge.protein {
+  background: #e74c3c;
+}
+
+.macro-badge.carbs {
+  background: #f39c12;
+  color: #1a1a1a;
+}
+
+.macro-badge.fat {
+  background: #3498db;
+}
+
+.meal-section {
+  border-top: 1px solid #2a2a2a;
+  padding: 0.75rem 1.25rem;
+}
+
+.meal-section h4 {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.meal-food-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.meal-food-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0;
+  font-size: 0.82rem;
+  color: #aaa;
+}
+
+.meal-food-name {
+  flex: 1;
+}
+
+.meal-food-macros {
+  display: flex;
+  gap: 0.75rem;
+  font-size: 0.78rem;
+}
+
+.meal-food-macros span {
+  min-width: 40px;
+  text-align: right;
+}
+
+.meal-food-macros .protein { color: #e74c3c; }
+.meal-food-macros .carbs { color: #f39c12; }
+.meal-food-macros .fat { color: #3498db; }
+
+/* Food Database */
+.food-db-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.food-search {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  background: #1e1e1e;
+  border: 1px solid #444;
+  border-radius: 6px;
+  color: #eee;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+}
+
+.food-search:focus {
+  outline: none;
+  border-color: #e74c3c;
+}
+
+.category-filters {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.category-btn {
+  padding: 0.3rem 0.65rem;
+  border: 1px solid #444;
+  background: #1e1e1e;
+  color: #aaa;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.2s;
+  text-transform: capitalize;
+}
+
+.category-btn:hover {
+  border-color: #666;
+  color: #ccc;
+}
+
+.category-btn.active {
+  background: #e74c3c;
+  border-color: #e74c3c;
+  color: #fff;
+}
+
+.food-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.food-table th {
+  text-align: left;
+  padding: 0.5rem 0.5rem;
+  border-bottom: 2px solid #333;
+  color: #999;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.food-table th:hover {
+  color: #ccc;
+}
+
+.food-table th.sorted {
+  color: #e74c3c;
+}
+
+.food-table th .sort-arrow {
+  margin-left: 0.25rem;
+  font-size: 0.7rem;
+}
+
+.food-table td {
+  padding: 0.45rem 0.5rem;
+  border-bottom: 1px solid #2a2a2a;
+  color: #ccc;
+}
+
+.food-table td.protein { color: #e74c3c; }
+.food-table td.carbs { color: #f39c12; }
+.food-table td.fat { color: #3498db; }
+
+.food-table tbody tr:hover {
+  background: #252525;
+}
+
+.food-count {
+  text-align: center;
+  color: #666;
+  font-size: 0.8rem;
+  margin-top: 0.75rem;
+}

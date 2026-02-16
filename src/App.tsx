@@ -1,16 +1,19 @@
 import { useState, useEffect } from 'react';
-import type { LayerId, BodyView, BodyRegion } from './types';
+import type { BodyView, BodyRegion } from './types';
 import { DataProvider, useDataService } from './services/DataProvider';
-import { LayerSelector } from './components/LayerSelector/LayerSelector';
 import { ViewToggle } from './components/ViewToggle/ViewToggle';
 import { BodyDiagram } from './components/BodyDiagram/BodyDiagram';
 import { ExercisePanel } from './components/ExercisePanel/ExercisePanel';
+import { WorkoutBuilder } from './components/WorkoutBuilder/WorkoutBuilder';
+import { NutritionGuide } from './components/NutritionGuide/NutritionGuide';
 import { useBodyInteraction } from './hooks/useBodyInteraction';
 import './App.css';
 
+type AppTab = 'atlas' | 'builder' | 'nutrition';
+
 function AppContent() {
   const dataService = useDataService();
-  const [activeLayer, setActiveLayer] = useState<LayerId>('muscular');
+  const [activeTab, setActiveTab] = useState<AppTab>('atlas');
   const [activeView, setActiveView] = useState<BodyView>('front');
   const [regions, setRegions] = useState<BodyRegion[]>([]);
   const {
@@ -22,13 +25,8 @@ function AppContent() {
   } = useBodyInteraction();
 
   useEffect(() => {
-    dataService.getBodyRegions(activeView, activeLayer).then(setRegions);
-  }, [dataService, activeView, activeLayer]);
-
-  const handleLayerChange = (layer: LayerId) => {
-    setActiveLayer(layer);
-    clearSelection();
-  };
+    dataService.getBodyRegions(activeView).then(setRegions);
+  }, [dataService, activeView]);
 
   const handleViewChange = (view: BodyView) => {
     setActiveView(view);
@@ -42,34 +40,63 @@ function AppContent() {
     <div className="app">
       <header className="app-header">
         <h1>Body Atlas</h1>
-        <p className="subtitle">Interactive Physiology & Exercise Guide</p>
+        <p className="subtitle">INTERACTIVE ANATOMY & EXERCISE GUIDE</p>
+        <nav className="tab-bar">
+          <button
+            className={`tab-btn${activeTab === 'atlas' ? ' active' : ''}`}
+            onClick={() => setActiveTab('atlas')}
+          >
+            Body Atlas
+          </button>
+          <button
+            className={`tab-btn${activeTab === 'builder' ? ' active' : ''}`}
+            onClick={() => setActiveTab('builder')}
+          >
+            Workout Builder
+          </button>
+          <button
+            className={`tab-btn${activeTab === 'nutrition' ? ' active' : ''}`}
+            onClick={() => setActiveTab('nutrition')}
+          >
+            Nutrition Guide
+          </button>
+        </nav>
       </header>
-      <div className="app-layout">
-        <aside className="sidebar-left">
-          <LayerSelector
-            activeLayer={activeLayer}
-            onLayerChange={handleLayerChange}
-          />
-        </aside>
-        <main className="main-content">
-          <ViewToggle activeView={activeView} onViewChange={handleViewChange} />
-          <BodyDiagram
-            activeLayer={activeLayer}
-            activeView={activeView}
-            hoveredRegion={hoveredRegion}
-            selectedRegion={selectedRegion}
-            onHover={handleRegionHover}
-            onClick={handleRegionClick}
-          />
-        </main>
-        <aside className="sidebar-right">
-          <ExercisePanel
-            selectedRegion={selectedRegion}
-            activeLayer={activeLayer}
-            regionLabel={selectedLabel}
-          />
-        </aside>
-      </div>
+
+      {activeTab === 'atlas' ? (
+        <div className="app-layout">
+          <aside className="sidebar-left">
+            <ExercisePanel
+              selectedRegion={selectedRegion}
+              regionLabel={selectedLabel}
+              exerciseType="stretch"
+              panelTitle="Stretching & Mobility"
+            />
+          </aside>
+          <main className="main-content">
+            <ViewToggle activeView={activeView} onViewChange={handleViewChange} />
+            <BodyDiagram
+              activeView={activeView}
+              hoveredRegion={hoveredRegion}
+              selectedRegion={selectedRegion}
+              onHover={handleRegionHover}
+              onClick={handleRegionClick}
+            />
+          </main>
+          <aside className="sidebar-right">
+            <ExercisePanel
+              selectedRegion={selectedRegion}
+              regionLabel={selectedLabel}
+              exerciseType="exercise"
+              panelTitle="Strengthening"
+            />
+          </aside>
+        </div>
+      ) : activeTab === 'builder' ? (
+        <WorkoutBuilder />
+      ) : (
+        <NutritionGuide />
+      )}
     </div>
   );
 }
